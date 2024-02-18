@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>제목</title>
+    <link rel="stylesheet" href="css/layout8.css">
+</head>
+<body>
+    <div>
+        <h3>소제목1</h3>
+        <p>본문글1</p>
+    </div>
+    <div style="float: left;">
+        <h3>소제목2</h3>
+        <p>본문글2</p>
+    </div>
+    <div style="float: left;">
+        <h3>소제목3</h3>
+        <p>본문글3</p>
+    </div>
+    <div style="clear: both;"></div>
+    <div>
+        <h3>소제목4</h3>
+        <p>본문글4</p>
+        <button>버튼</button>
+        <br>
+        <hr>
+        <a href="https://www.naver.com/">
+            <img  src="img/cat.jpg" width="100px;" height="100px;">
+        </a>
+    </div>
+    <div>
+        <h4>순서없는 리스트</h4>
+        <ul style="list-style-type: square;">
+            <li>첫번째</li>
+            <li>두번째</li>
+            <li>세번째</li>
+        </ul>
+        <h4>순서있는 리스트</h4>
+        <ol style="list-style-type: lower-roman;">
+            <li>첫번째</li>
+            <li>두번째</li>
+            <li>세번째</li>
+        </ol>
+    </div>
+    <div>
+        <ul class="nav">
+            <li><a href="https://www.naver.com/">네이버</a></li>
+            <li><a href="https://www.google.com/">구글</a></li>
+            <li><a href="https://www.daum.net/">다음</a></li>
+            <li><a href="https://www.kakao.com/">카카오</a></li>
+        </ul>
+    </div>
+    <div class="target">
+        <form>
+            아이디: <input type="text"> <!--입력하는 공간 글자 입력-->
+            <br>
+            비밀번호: <input type="password"> <!--입력하는 공간 패스워드 글자 안 보임-->
+        </form>
+    </div>
+    <div class="input-class">
+        <form>
+            <input type="text" placeholder="여기에 입력하세요">
+            <input type="password">
+            <input type="number" value="111">
+            <input type="email" placeholder="example@example.com">
+            <input type="date">
+            <br>
+            <input type="checkbox" id="chk1">
+            <label for="chk1">동의하시겠습니까?</label>
+            <br>
+            <input type="radio" name="bundle" id="content1">
+            <label for="content1">첫번째</label>
+            <br>
+            <input type="radio" name="bundle" id="content2">
+            <label for="content2">두번째</label>
+            <br>
+            <input type="radio" name="bundle" id="content3">
+            <label for="content3">세번째</label>
+            <br>
+            <textarea></textarea>
+            <input  type="submit" value="회원가입">
+            <input  type="button" value="뒤로가기">
+        </form>
+    </div>
+    <!--표: table/tr(행, table row)/td-->
+    <div class="component-table">
+        <table class="my-table">
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td colspan="2">4</td>
+                <td>5</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

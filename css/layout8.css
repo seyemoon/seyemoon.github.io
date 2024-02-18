@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+}
+
+div, textarea{
+    border: 1px solid yellowgreen;
+    box-sizing: border-box;
+}
+
+.nav li{
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+    padding: 10px;
+    background-color: violet;
+    border-radius: 5px;
+}
+
+a,
+a:link,
+a:visited,
+a:active,
+a:focus
+{
+    text-decoration: none;
+    color: blue;
+    font-size: 16px;
+}
+
+a:hover{
+    text-decoration: none;
+    color: green;
+    font-size: 16px;
+}
+
+.target{
+    background-color: bisque;
+    width: 500px;
+    height: 50px;
+    position: relative;
+    top: -20px;
+    left: 90px;
+}
+
+.input-class{
+    width: 200px;
+}
+
+.input-class input{
+    box-sizing: border-box;
+}
+
+.input-class input[type=text],
+.input-class input[type=number]
+{
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid purple;
+    border-radius: 5px;
+}
+
+.my-table{
+    border-collapse: collapse;
+}
+
+.my-table tr td{
+    border: 1px solid black;
+    width: 200px;
+}
